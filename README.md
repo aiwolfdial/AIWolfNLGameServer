@@ -9,7 +9,7 @@ The following are the necessary environment requirements for executing the progr
 * Java17
 
 ## Settings
-Please provide the connection information for `res/NLPAIWolfServer_Client.ini`
+Please provide the connection information for `res/AIWolfGameServer.ini`
 ```
 
 (...)
@@ -38,7 +38,7 @@ false: This program will connect to the participant's program.
 1. Start the agent program and begin listening.\
 The sample agent is prepared for use with [AIWolfNLAgentPython](https://github.com/aiwolfdial/AIWolfNLAgentPython/tree/main)
 
-1. Specify the listening IP and PORT of the agent for `res/NLPAIWolfServer_Client.ini`
+1. Specify the listening IP and PORT of the agent for `res/AIWolfGameServer.ini`
 
 1. Execute the battle program with the following command.
 	```sh
@@ -53,7 +53,7 @@ The sample agent is prepared for use with [AIWolfNLAgentPython](https://github.c
 * Java17
 
 ## 設定
-`res/NLPAIWolfServer_Client.ini`に接続先の情報を記載してください。
+`res/AIWolfGameServer.ini`に接続先の情報を記載してください。
 ```
 
 (...)
@@ -82,7 +82,7 @@ false: 対戦プログラムが参加者のプログラムへ接続しに行く
 ## 自己対戦方法の実行方法
 1. エージェントプログラムを起動し待ち受けを開始する。\
 サンプルエージェントは[AIWolfNLAgentPython](https://github.com/aiwolfdial/AIWolfNLAgentPython/tree/main)に用意してあります。
-1. `res/NLPAIWolfServer_Client.ini`にエージェントの待ち受けIP,PORTを指定する。
+1. `res/AIWolfGameServer.ini`にエージェントの待ち受けIP,PORTを指定する。
 
 1. 以下のコマンドで対戦プログラムを実行する。
 	```sh
