@@ -50,7 +50,7 @@ The sample agent is prepared for use with [AIWolfNLAgentPython](https://github.c
 
 ## 環境
 以下はプログラム実行に必要な環境です。
-* Java17
+* Java17以上
 
 ## 設定
 `res/AIWolfGameServer.ini`に接続先の情報を記載してください。
@@ -88,3 +88,23 @@ false: 対戦プログラムが参加者のプログラムへ接続しに行く
 	```sh
 	$ make run
 	```
+
+## 提出する自己対戦の設定、本戦での設定について
+運営に提出して頂く自己対戦の設定や本戦での設定については基本的に以下の設定例のようになります。ただし、本戦で`gameNum`については参加者間のエージェントの対戦として十分な量のログを取ることができるだけの値に変更します。(`gameNum`は当日の様子により左右されるため具体的な値については未定です。)
+
+設定例
+```
+agentNum=5
+connectAgentNum=5
+only1AgentByIP=false
+deleteConnectionTime=24
+gameNum=1
+maxTalk=10
+maxTurn=20
+parallel=5
+timeout=6000000
+saveLog=true
+isLoop=true
+continueException=true
+isSingle=false
+```
