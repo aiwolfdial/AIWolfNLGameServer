@@ -1,5 +1,7 @@
 # AIWolfNLPServer
-英語の説明の後に、同じ内容で日本語の説明があります。
+人狼知能大会自然言語部門向けのリモート対戦接続システムです。英語の説明の後に、同じ内容で日本語の説明があります。
+人狼知能自然言語部門2024国内大会については https://sites.google.com/view/aiwolfdial2024jp に説明があります。先にお読みください。
+Pythonサンプルエージェントコードと、エージェントをリモート待ち受け状態にするリモートラッパーのコードは [AIWolfNLGameServer]([https://github.com/aiwolfdial/AIWolfNLGameServer](https://github.com/aiwolfdial/AIWolfNLAgentPython/)) にあります。
 
 ## Overview
 This program is a battle system developed for developers to engage in self-play locally.
@@ -46,7 +48,8 @@ The sample agent is prepared for use with [AIWolfNLAgentPython](https://github.c
 	```
 
 ## 概要
-本プログラムは開発者向けにローカルで自己対戦をするための対戦プログラムです。
+本プログラムは人狼知能大会自然言語部門参加者向けに、待ち受け済みエージェント間のリモート対戦を実現するための対戦接続プログラムです。
+5体のエージェントに対応する、5つのIPアドレス＋Port番号を指定することで対戦を実行します。
 
 ## 環境
 以下はプログラム実行に必要な環境です。
