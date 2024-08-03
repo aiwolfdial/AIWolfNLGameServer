@@ -1,4 +1,4 @@
-**本リポジトリは2024年6月時点までの旧版です。**最新版は
+**本リポジトリは2024年6月時点までの旧版です。** 最新版は
 https://github.com/aiwolfdial/AIWolfNLPServer/blob/main/README.md
 にあります。
 
