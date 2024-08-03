@@ -1,3 +1,10 @@
+**本リポジトリは2024年6月時点までの旧版です。**最新版は
+https://github.com/aiwolfdial/AIWolfNLPServer/blob/main/README.md
+にあります。
+
+**This repository is an old one.** The latest version is here:
+https://github.com/aiwolfdial/AIWolfNLPServer/blob/main/README.md
+
 # AIWolfNLPServer
 人狼知能大会自然言語部門向けのリモート対戦接続システムです。英語の説明の後に、同じ内容で日本語の説明があります。
 人狼知能自然言語部門2024国内大会については https://sites.google.com/view/aiwolfdial2024jp に説明があります。先にお読みください。
